@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+    body{
+        background: linear-gradient(to left bottom,#92B4EC,#FFFFFF,#FFE69A,#FFD24C);
+        animation: colors 5s ease-in-out infinite;
+        background-size: 200% 200%;
+        
+    
+        }
+    
+
+    @keyframes colors {
+        0%{
+            background-position: 0% 50%;
+        }
+    
+        50%{
+            background-position: 100% 0%;
+    
+        }
+    
+        100%{
+            background-position: 0%50%;
+        }
+    }
+
+    header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap; 
+    }
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        
+        
+
+        
+        
+    }
+
+    .cabecalho-menu{
+        display: flex;
+        gap: 50px;
+        
+    }
+
+    .cabecalho-imagem{
+        height: 400px;
+        cursor: pointer;
+        
+        
+    }
+
+    .cabecalho-botao{
+        color:white;
+        font-size: 18px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: black;
+        border-width: 0px;
+        border-radius: 20px;
+        cursor: pointer;
+      width: 200px;
+    }
+
+    .cabecalho-botao:hover{
+    
+    color: black;
+    border-radius: 20px;
+    border-bottom: 5px solid gray;
+    transition-duration: 0.2s;
+    
+    
+    }
+    .cabecalho-botao:active{
+        background-color: white;
+        color: black;
+        border-top: 4px solid gray;
+        border-bottom: 0px;
+       
+    }
+
+div{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 100px;
+    padding: 10px 10px;
+    width: auto;
+    height: auto;
+}
+
+input{
+    color: black;
+    background-color: white;
+    outline: none;
+    padding: 0px;
+    border: none;
+    width: 0px;
+    transition: 0.4s linear;
+}
+
+label{
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 1s linear;
+}
+
+div:hover>input{
+    padding: 5px;
+    width: 200px;
+
+
+}
+
+div:hover>label {
+    background-color:white;
+    
+}
+
+
+main{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+}
+.corpo-imagem{
+    height: 150px;
+    width: 150px;
+    padding: 10px 10px;
+    display: flex;
+    margin: auto;
+    padding: auto;
+    margin: auto;
+    cursor: pointer;
+}
+.corpo-imagem:hover{
+    height: 200px;
+    width: 200px;
+    transition: 0.2s linear;
+}
+
+.corpo-imagem:active{
+    height: 180px;
+    width: 180px;
+    transition: none;
+}
+
+
+.titulo-corpo{
+    font-size: 18px;
+    background-color: white;
+    margin: auto;
+    padding: auto;
+    border-radius: 20px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.sec{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
